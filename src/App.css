@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+p,
+a,
+q,
+s,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+tr,
+th,
+td,
+tt,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+nav,
+del,
+pre,
+big,
+dfn,
+img,
+var,
+ins,
+kbd,
+cite,
+code,
+menu,
+body,
+html,
+span,
+abbr,
+samp,
+ruby,
+time,
+mark,
+form,
+aside,
+tbody,
+audio,
+video,
+embed,
+tfoot,
+thead,
+label,
+table,
+small,
+strike,
+strong,
+legend,
+canvas,
+center,
+applet,
+figure,
+footer,
+header,
+hgroup,
+object,
+output,
+iframe,
+article,
+acronym,
+address,
+section,
+caption,
+details,
+summary,
+fieldset,
+blockquote,
+figcaption {
+  display: block;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin: 0;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+input {
+  box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+a,
+select,
+button {
+  cursor: pointer;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: baseline;
+}
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  color: black;
+  font-weight: 400;
+  user-select: none;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-size: cover;
+  -webkit-user-select: none;
+  -webkit-box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.d_flex {
   display: flex;
-  flex-direction: column;
+}
+.justify__between {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.input_style {
+  color: black;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_style::placeholder {
+  color: black;
+}
+.iconSize {
+  width: 16px;
+  color: brown;
 }
